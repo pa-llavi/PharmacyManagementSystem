@@ -1,0 +1,36 @@
+<html>
+<head>
+</head>
+
+<body>
+	<form action="store_med.jsp" method="post">
+		<table align="center" cellspacing=20px>
+			<tr>
+				<th colspan=2 style="padding:20px;font-size:30;">Enter medicine details</th>
+			</tr>
+			
+			<tr>
+				<td>Medicine Name</td><td><input type="text" name="mname" size=50 style="margin-top:-10;border-style:solid;border-color:skyblue;height:35px;padding:5px;border-width:1px;"/></td>
+			</tr>
+			<tr>
+				<td>Medicine Code</td><td><input type="text" name="mcode" size=50 style="margin-top:-10;border-style:solid;border-color:skyblue;height:35px;padding:5px;border-width:1px;"/></td>
+			</tr>
+			<tr>
+				<td>Description</td><td><input type="text" name="desescription" size=50 style="margin-top:-10;border-style:solid;border-color:skyblue;height:35px;padding:5px;border-width:1px;"/></td>
+			</tr>
+			<tr>
+				<td>Unit</td><td><input type="text" name="unit" size=50 style="margin-top:-10;border-style:solid;border-color:skyblue;height:35px;padding:5px;border-width:1px;"/></td>
+			</tr>
+			<tr>
+				<td>Expiry</td><td><input type="text" name="expiry" size=50 style="margin-top:-10;border-style:solid;border-color:skyblue;height:35px;padding:5px;border-width:1px;"/></td>
+			</tr>
+			<tr>
+				<td>Category</td><td>Tablet<input type="radio" name="category" value="Tablet" style="margin:5px 30px;">Capsule<input type="radio" name="category" value="Capsule" style="margin:5px 30px;">Liquid<input type="radio" name="category" value="Liquid" style="margin:5px 30px;"></td>
+			</tr>
+			<tr>
+				<td></td><td colspan=2 style="padding:20px 80px;"><input type="reset" value="Reset" style="margin:10px;background-color:#1f618d;padding:10px;color:white;"><input type="submit" value="Save" style="background-color:#1f618d;padding:10px;color:white;"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
